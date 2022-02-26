@@ -44,7 +44,7 @@ the system is relatively pure, or has a low entropy value
 So we need to use a decreasing function to model probability of
 descriptive features and entropy. A log function is able to do this.
 
-<p align="center"><img src="graph_log.png" width="30%"></p>
+<p align="center"><img src="https://github.com/nancycyzl/ID3_from_scratch/blob/main/graph_log.PNG" width="30%"></p>
 
 Then entropy (denoted as H) of the system is defined as the weighted sum of
 log of probability of each possible value.
