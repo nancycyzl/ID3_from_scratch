@@ -115,3 +115,4 @@ When should we stop splitting a node? Here are the criteria.
 >>> grow a branch by returning D = D_i
 >>>
 >>
+Note that D means dataset, d means descriptive features.
