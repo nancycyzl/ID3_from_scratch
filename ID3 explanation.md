@@ -49,10 +49,7 @@ descriptive features and entropy. A log function is able to do this.
 Then entropy of the system is defined as the weighted sum of
 log of probability of each possible value.
 
-$$
-H(t) = \sum_{j=l}^{l}(P(t=i)\times log_{2}(P(t=i)))
-
-$$
+<img src="https://latex.codecogs.com/svg.image?H(t)&space;=&space;\sum_{j=l}^{l}(P(t=i)\times&space;log_{2}(P(t=i)))" title="H(t) = \sum_{j=l}^{l}(P(t=i)\times log_{2}(P(t=i)))" />
 
 To calculate Information Gain, we can follows these steps:
 
