@@ -52,6 +52,7 @@ log of probability of each possible value.
 <p align="center">
 <img src="https://latex.codecogs.com/svg.image?H(t)&space;=&space;\sum_{i=l}^{l}(P(t=i)\times&space;log_{2}(P(t=i)))" title="entropy" />
 </p>
+Note that D means dataset, d means descriptive features.
 
 To calculate Information Gain, we can follows these steps:
 
@@ -115,4 +116,3 @@ When should we stop splitting a node? Here are the criteria.
 >>> grow a branch by returning D = D_i
 >>>
 >>
-Note that D means dataset, d means descriptive features.
