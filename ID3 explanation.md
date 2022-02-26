@@ -17,7 +17,7 @@ which shall be discussed in another passage.
 
 Firstly we need to understand the structure of a tree in classification problems.
 
-> Node: the descriptive feature that is used to split the tree
+> Node: the descriptive feature that is used to split the tree  
 > Branch: the subclass that have the same value of the descriptive feature used to split the tree
 
 For example, if we use "gender" to split a group of people,
@@ -44,7 +44,7 @@ the system is relatively pure, or has a low entropy value
 So we need to use a decreasing function to model probability of
 descriptive features and entropy. A log function is able to do this.
 
-<p align="center"><img src="pictures/graph_log.png" width="30%"></p>
+<p align="center"><img src="graph_log.png" width="30%"></p>
 
 Then entropy (denoted as H) of the system is defined as the weighted sum of
 log of probability of each possible value.
