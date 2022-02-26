@@ -110,8 +110,11 @@ When should we stop splitting a node? Here are the criteria.
 >
 > else:
 >
->> choose d[best] which gives the largest IG(d,D)make a new node, label is d[best]partition D using d[best]remove d[best] from dfor each partition D_i of D:
->>
+>> choose d[best] which gives the largest IG(d,D)  
+>> make a new node, label is d[best]  
+>> partition D using d[best]  
+>> remove d[best] from d  
+>> for each partition D_i of D:
 >>> grow a branch by returning D = D_i
 >>>
 >>
