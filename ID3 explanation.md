@@ -57,12 +57,11 @@ To calculate Information Gain, we can follows these steps:
 
 1. Compute the entropy of original dataset wrt. target
 2. For each descriptive feature, divide the dataset based on this feature's values
-3. Sum entropy of each subset, which gives the remaining information.
+3. Sum entropy of each subset, which gives the remaining information. Note that D means dataset, d means descriptive features.
 
 <p align="center">
 <img src="https://latex.codecogs.com/svg.image?rem(d,D)&space;=&space;\sum_{l\in&space;level(d)}\frac{|D_{d=l}|}{D}&space;\times&space;H(t,D_{d=l})" title="rem" />
 </p>
-Note that D means dataset, d means descriptive features.
 
 4. Subtracting remaining entropy from the original entropy gives the IG.
 
