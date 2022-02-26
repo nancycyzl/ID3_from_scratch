@@ -52,7 +52,6 @@ log of probability of each possible value.
 <p align="center">
 <img src="https://latex.codecogs.com/svg.image?H(t)&space;=&space;\sum_{i=l}^{l}(P(t=i)\times&space;log_{2}(P(t=i)))" title="entropy" />
 </p>
-Note that D means dataset, d means descriptive features.
 
 To calculate Information Gain, we can follows these steps:
 
@@ -63,6 +62,7 @@ To calculate Information Gain, we can follows these steps:
 <p align="center">
 <img src="https://latex.codecogs.com/svg.image?rem(d,D)&space;=&space;\sum_{l\in&space;level(d)}\frac{|D_{d=l}|}{D}&space;\times&space;H(t,D_{d=l})" title="rem" />
 </p>
+Note that D means dataset, d means descriptive features.
 
 4. Subtracting remaining entropy from the original entropy gives the IG.
 
