@@ -70,7 +70,7 @@ To calculate Information Gain, we can follows these steps:
 <img src="https://latex.codecogs.com/svg.image?\bg_white&space;IG(d,G)&space;=&space;H(t,D)&space;-&space;rem(d,D)" title="IG" />
 </p>
 
-#### ID3 Algorithm Explanation
+### ID3 Algorithm Explanation
 
 After understanding the principal concept, Information Gain (IG),
 let's get into how exactly a tree is expanded.
@@ -92,7 +92,7 @@ When should we stop splitting a node? Here are the criteria.
 * When all descriptive features have been used before in this path
 * When the subset is empty (no more instances to split)
 
-#### ID3 Algorithm pseudocode
+### ID3 Algorithm pseudocode
 
 > if all instances in D have the same target C:
 >
