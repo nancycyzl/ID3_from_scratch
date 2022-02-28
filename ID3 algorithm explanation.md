@@ -51,7 +51,7 @@ Then entropy (denoted as H) of the system is defined as the weighted sum of
 log of probability of each possible value.
 
 <p align="center">
-<img src="https://latex.codecogs.com/svg.image?H(t)&space;=&space;\sum_{i=l}^{l}(P(t=i)\times&space;log_{2}(P(t=i)))" title="entropy" />
+<img src="https://latex.codecogs.com/svg.image?H(t)&space;=&space;-\sum_{i=l}^{l}(P(t=i)\times&space;log_{2}(P(t=i)))" title="entropy" />
 </p>
 
 ```python
